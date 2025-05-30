@@ -110,7 +110,6 @@ const HomeScreen: React.FC = () => {
     },
   ];
 
-  // Brain Icon Component
   const BrainIcon = () => (
     <View style={styles.iconContainer}>
       <View style={styles.brainMain}>
@@ -121,7 +120,7 @@ const HomeScreen: React.FC = () => {
     </View>
   );
 
-  // Recurring Icon Component (Two curved arrows)
+  
   const RecurringIcon = () => (
     <View style={styles.iconContainer}>
       <View style={styles.recurringArrow1} />
@@ -129,7 +128,7 @@ const HomeScreen: React.FC = () => {
     </View>
   );
 
-  // Task Icon Component (Checkmark)
+  
   const TaskIcon = () => (
     <View style={styles.iconContainer}>
       <View style={styles.checkmarkContainer}>
@@ -257,7 +256,7 @@ const HomeScreen: React.FC = () => {
         key={option.id}
         style={styles.taskTypeOption}
         onPress={() => {
-          // Handle task type selection
+          
           setModalVisible(false);
         }}
       >
@@ -436,7 +435,7 @@ const styles = StyleSheet.create({
     right: 0,
     transform: [{ rotate: '45deg' }],
   },
-  // Calendar Icon
+
   calendarIcon: {
     width: 16,
     height: 18,
@@ -465,7 +464,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#666666',
     marginBottom: 1,
   },
-  // Question Icon
+ 
   questionIcon: {
     width: 18,
     height: 18,
@@ -755,14 +754,14 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
  
-  // Icon Component Styles
+
   iconContainer: {
     width: 20,
     height: 20,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  // Brain Icon
+
   brainMain: {
     width: 16,
     height: 12,
@@ -800,7 +799,7 @@ const styles = StyleSheet.create({
     bottom: -2,
     alignSelf: 'center',
   },
-  // Recurring Icon (Two curved arrows)
+
   recurringArrow1: {
     width: 12,
     height: 12,
@@ -827,7 +826,7 @@ const styles = StyleSheet.create({
     bottom: -2,
     right: 2,
   },
-  // Checkmark Icon
+ 
   checkmarkContainer: {
     width: 16,
     height: 16,
@@ -852,7 +851,7 @@ const styles = StyleSheet.create({
     right: 1,
     top: 6,
   },
-  // Target/Goal Icon
+ 
   targetOuter: {
     width: 16,
     height: 16,
